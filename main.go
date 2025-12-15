@@ -1,17 +1,13 @@
-package ics3uvunit4activity1assignment1
-
 // Author: Joshua Adeyemi
 // Version: 1.0.0
 // Date: 2025-12-14
-// FileOverview: This program calculates the average of student marks and gives performance feedback.
+// FileOverview: Calculates the average of student marks and gives performance feedback.
 
+package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	// Hardcoded input for portfolio/linter purposes
 	numMarks := 3
 	marks := []float64{75.8, 90.2, 80}
 
